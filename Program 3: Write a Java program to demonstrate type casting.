@@ -1,0 +1,14 @@
+public class pgm3 
+{
+public static void main(String[] args) 
+{
+int x = 7; 
+long y = x; 
+float z = y; 
+double p=z; 
+System.out.println("Before conversion, int value "+x);
+System.out.println("After conversion, long value "+y); 
+System.out.println("After conversion, float value "+z); 
+System.out.println("After conversion,double value "+p);
+}
+}
