@@ -1,0 +1,16 @@
+class defcon 
+{
+int id; 
+String name; 
+public void print() {
+System.out.println("Example of default constructor"); 
+System.out.println("I'D is : "+id); 
+System.out.println("Name is : "+name);
+}
+} 
+class defcon1 {
+public static void main(String args[]) {
+defcon d=new defcon();
+d.print(); 
+}
+}
