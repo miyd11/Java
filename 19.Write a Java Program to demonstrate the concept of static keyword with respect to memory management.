@@ -1,0 +1,22 @@
+class stat {
+int id;
+String name;
+static String college="KLE RLS BCA"; 
+stat(int i,String n) {
+id=i; 
+name=n;
+}
+public void print() 
+{
+System.out.println(id+" "+name+" "+college);
+}
+} 
+class stat1 {
+public static void main(String args[])
+{
+stat s=new stat(111,"Rohit");
+stat s2=new stat(222,"ABC"); 
+System.out.println(“Example of static keyword”);
+s.print(); 
+s2.print();
+} }
