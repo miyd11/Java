@@ -1,0 +1,13 @@
+interface inter 
+{
+public void print();
+} 
+class inter1 implements inter {
+public void print()
+{
+System.out.println("Example of interface");
+}
+public static void main(String args[]) {
+inter1 i=new inter1(); 
+i.print();
+} }
