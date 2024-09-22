@@ -1,0 +1,22 @@
+class metoverpara 
+{
+public void add(int a,int b) 
+{
+int c; 
+c=a+b; 
+System.out.println("Addition of two integer numbers is"+c);
+}
+public void add(int a,int b,int c) 
+double d; 
+d=a+b+c; 
+System.out.println("Addition of three integer numbers is"+d);
+}
+} 
+class metoverpara1 {
+public static void main(String args[]) {
+metoverpara m=new metoverpara(); 
+  System.out.println("Example of Method overloading by changing parameterlist");
+m.add(10,20); 
+m.add(10,20,30);
+}
+}
