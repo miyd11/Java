@@ -1,0 +1,19 @@
+interface A 
+{
+public void print();
+}
+interface B
+{
+public void print();
+} 
+class mulin implements A,B {
+public void print() 
+{
+System.out.println("From First Method");
+}
+public static void main(String args[])
+{
+mulin m=new mulin();
+System.out.println(“Example of multiple inheritance using interface”); 
+m.print();
+} }
