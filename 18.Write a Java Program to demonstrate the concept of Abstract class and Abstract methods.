@@ -1,0 +1,21 @@
+abstract class abs
+{
+abs()
+{
+System.out.println("Constructoe in abstract class");
+}
+void normal() 
+{
+System.out.println("Normal Method in abstract class");
+} 
+abstract void print();
+} 
+class abst extends abs {
+void print() {
+System.out.println("Example of abstract class and method");
+}
+public static void main(String args[]) 
+{
+abst a=new abst(); a.print(); a.normal();
+}
+}
