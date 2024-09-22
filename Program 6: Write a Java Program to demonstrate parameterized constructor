@@ -1,0 +1,23 @@
+class parac 
+{
+int id; 
+String name; 
+parac(int i,String n) 
+{
+id=i; 
+name=n;
+}
+public void display() 
+{
+System.out.println("Example of parameterized constructor"); 
+System.out.println("I'D is : "+id); 
+System.out.println("Name is : "+name);
+}
+} 
+class parac1 
+{
+public static void main(String args[]) {
+parac p=new parac(123,"Rohit"); 
+p.display();
+} 
+}
