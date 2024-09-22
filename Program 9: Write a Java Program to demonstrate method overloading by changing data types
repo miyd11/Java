@@ -1,0 +1,21 @@
+class metoverdata {
+public void add(int a,int b) {
+int c;
+c=a+b; 
+System.out.println("Addition of two integer data type numbers is"+c);
+}
+public void add(double a,double b) {
+double c; 
+c=a+b; 
+System.out.println("Addition of two double data type numbers is"+c);
+}
+} 
+class metoverdata1 
+{
+public static void main(String args[]) {
+metoverdata m=new metoverdata(); 
+System.out.println("Example of Mrthod overloading by changing data types");
+m.add(10,20);
+m.add(10.5,20.5)
+  }
+  }
