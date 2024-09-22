@@ -1,0 +1,20 @@
+class single 
+{ 
+void display() 
+{
+System.out.println("Inside Base Class");
+} 
+}
+class single1 extends single
+{ 
+void display1() 
+{
+System.out.println("Inside Derived Class"); 
+}
+public static void main(String args[])
+{ 
+single1 s=new single1();
+System.out.println("Example of single inheritance"); 
+s.display(); 
+s.display1(); 
+} } }
