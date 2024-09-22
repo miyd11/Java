@@ -1,0 +1,17 @@
+class metride {
+public void print() 
+{
+System.out.println("From base class"); 
+}
+}
+class metride1 extends metride {
+public void print() 
+{
+System.out.println("From derived class");
+}
+public static void main(String args[])
+  {
+metride1 m=new metride1(); 
+System.out.println("Example of Method Overriding"); 
+m.print();
+} }
