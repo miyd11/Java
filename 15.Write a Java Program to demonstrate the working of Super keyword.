@@ -1,0 +1,15 @@
+class student { 
+String college="RLS BCA";
+} 
+class student1 extends student{ 
+String college="KLE BCA"; 
+void printcollege()
+{
+System.out.println(“College Name is”+college);//prints college of student class 
+System.out.println(“College Name is”+super.college);//prints college of student1 class }
+public static void main(String args[])
+{
+student1 s=new student1(); 
+System.out.println(“Example of super keyword”); 
+s.printcollege(); 
+} }
