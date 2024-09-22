@@ -1,0 +1,27 @@
+class cover {
+int id; 
+String name; 
+int age; 
+cover(int i,String n) {
+id=i;
+name=n;
+} 
+  cover(int i,String n,int a) 
+  {
+id=i; 
+name=n; 
+age=a;
+}
+public void display() 
+{
+System.out.println("Example of constructor overloading"); System.out.println("I'D is : "+id); System.out.println("Name is : "+name); System.out.println("Age : "+age);
+}
+} 
+class cover1 
+{
+public static void main(String args[]) 
+{
+cover c=new cover(123,"Rohit"); 
+cover c1=new cover(222,"ABC",31); 
+c.display(); c1.display();
+}
