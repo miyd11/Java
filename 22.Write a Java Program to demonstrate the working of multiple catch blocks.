@@ -1,0 +1,21 @@
+class ex 
+{
+public static void main(String args[])
+{
+try
+{
+int []a={10,20,30,40,50};
+System.out.println(a[6]);
+}
+catch(ArrayIndexOutOfBoundsException e) 
+{
+System.out.println("Array index exception occured");
+}
+catch(Exception e) 
+{
+System.out.println(e); 
+}
+finally
+{
+System.out.println("Example of multiple catch"); 
+} } }
