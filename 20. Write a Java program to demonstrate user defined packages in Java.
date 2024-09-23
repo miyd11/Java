@@ -1,0 +1,18 @@
+A.java
+package pack; 
+public class A 
+{
+public void print() 
+{
+System.out.println("Example of user defined packages");
+}
+} 
+B.java
+import pack. A; 
+public class B
+{
+public static void main(String args[])
+{
+A obj=new A(); 
+obj.print();
+} }
