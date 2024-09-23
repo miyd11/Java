@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+class arrl
+{
+public static void main(String[] args)
+{ 
+  ArrayList<String> language = new ArrayList<>();
+// add elements in the array list
+ language.add("Java"); 
+ language.add("RDBMS"); 
+ language.add("OS");
+System.out.println("ArrayList: " + language);
+// remove element from index 2 
+ String str = language.remove(2); 
+ System.out.println("Updated ArrayList: " + language); 
+ System.out.println("Removed Element: " + str);
+} }
