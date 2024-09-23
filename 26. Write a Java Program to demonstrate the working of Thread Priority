@@ -1,0 +1,25 @@
+class tpri extends Thread 
+{
+public void run()
+{
+System.out.println("Inside Run method"); 
+}
+public static void main(String args[]) 
+{
+tpri t1=new tpri(); 
+tpri t2=new tpri();
+System.out.println("Default thread priorities"); 
+System.out.println("Thread 1 priority"+t1.getPriority()); 
+System.out.println("Thread 2 priority"+t2.getPriority()); 
+System.out.println("Max and Min thread priorities");
+t1.setPriority(MAX_PRIORITY);
+t2.setPriority(MIN_PRIORITY); 
+System.out.println("Thread 1 priority"+t1.getPriority());
+System.out.println("Thread 2 priority"+t2.getPriority()); 
+t1.setPriority(2); 
+t2.setPriority(9);
+System.out.println("After setting priority"); 
+System.out.println("Thread 1 priority"+t1.getPriority()); 
+System.out.println("Thread 2 priority"+t2.getPriority()); 
+System.out.println("Current runing thread is "+currentThread().getName());
+} }
